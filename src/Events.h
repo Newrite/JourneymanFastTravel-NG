@@ -83,7 +83,7 @@ class OnMenuCloseHandler : public RE::BSTEventSink<RE::MenuOpenCloseEvent>
     } else if (a_event->menuName == RE::TweenMenu::MENU_NAME && a_event->opening) {
       settings->menuFastTravel = false;
     } else if (a_event->menuName == RE::CursorMenu::MENU_NAME) {
-      logger::info("Menu ProcessEvent call Cursor Menu");
+      // logger::info("Menu ProcessEvent call Cursor Menu");
       FastTravelManager::EnableFastTravel(nullptr, nullptr, nullptr, true);
     } else if (a_event->menuName == RE::BookMenu::MENU_NAME) {
       settings->menuFastTravel = false;

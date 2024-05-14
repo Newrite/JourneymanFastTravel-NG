@@ -36,7 +36,7 @@ target("Journeyman")
     -- add commonlibsse-ng plugin
     add_rules("commonlibsse-ng.plugin", {
         name = "Journeyman",
-        author = "Simon Magus and Colinswrath and Newrite",
+        author = "Simon Magus and Colinswrath and Newrite (as Backporter)",
         description = "Journeyman is a lightweight, highly compatible fast travel overhaul that restricts the player from fast traveling unless they have prepared a travel pack."
     })
 
